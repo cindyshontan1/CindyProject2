@@ -1,0 +1,161 @@
+html{
+	background-color: #grey;
+	padding: 0;
+}
+
+body{
+	background-color: #grey;
+	margin: 1em auto;
+	max-width: 50em;
+}
+
+p. ul{
+	font-family: 'Montserrat' serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+:root{
+	--purple:#9232a6;
+	--grey: #2f2f36;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #9232a6;
+	height: 150px
+}
+.icons{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	left: 0.0005em;
+}
+
+.mylogo{
+	width: 150px;
+	height: 150px;
+	
+}
+
+.title-holder{
+	align-items: center;
+	margin: 100px;
+}
+
+.mantra{
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+.name{
+	color: #2f2f36
+	font-family: 'Montserrat', serif;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.developer{
+	color: rgb(33,17,21);
+	font-family: 
+	text-transform: uppercase;
+}
+
+.content-body{
+	display: flex;
+	flex-direction: row;
+}
+
+.wrapper{
+	margin: 20px
+}
+
+.section-left{
+	flex: 1;
+	background-color: #b4babf;
+}
+
+
+.section-left ul{
+	list-style: none;
+	margin-left: -40px;
+}
+
+.lists{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.content{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Montserrat', serif;
+	letter-spacing: 2px;
+	text-decoration-line: underline;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-top: -10px;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+.section-right{
+	flex: 2;
+}
+
+.section-right .wrapper{
+	margin-left: 50px;
+}
+
+.section-right ul{
+	margin-left: -20px;
+}
+
+.section-right h2{
+	color: #b4babf;
+	font-weight: bold;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#9232a6;
+	height: 50px;
+
+}
