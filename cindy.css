@@ -1,10 +1,12 @@
 html{
 	background-color: #grey;
 	padding: 0;
+	box-sizing: border-box;
+	outline: none;
 }
 
 body{
-	background-color: #grey;
+	background-color: #fff;
 	margin: 1em auto;
 	max-width: 50em;
 }
@@ -68,7 +70,7 @@ a{
 	color: #2f2f36
 	font-family: 'Montserrat', serif;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 45px;
 	font-weight: bold;
 }
 
@@ -149,6 +151,89 @@ h4{
 .section-right h2{
 	color: #b4babf;
 	font-weight: bold;
+}
+
+.wrap{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 400px;
+	width: 100%;
+	background: : white;
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 2px #000;
+}
+
+.wrap h1{
+	text-align: center;	
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #2f2f36;
+}
+
+.wrap .input-fields{
+	margin-bottom: 10px;
+}
+
+.wrap .input-fields input[type="text"],
+.wrap textarea{
+	width: 100%;
+	border: 1px solid #9232a6;
+	padding: 10px;
+}
+
+
+.wrap .input-fields input[type="email"]{
+	width: 100%;
+	border: 1px solid #9232a6;
+	padding: 10px;
+}
+
+.wrap textarea{
+	height: 80px;
+	resize: none;
+}
+
+.wrap .btn input[type="submit"]{
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 	100%;
+	background: #9232a6; 
+	color: #2f2f36;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 	25px;
+	cursor: pointer;
+}
+
+.nice{
+	font-family: 'Sanchez', serif;
+	font-weight: normal;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+}
+
+.fixedbutton{
+	position: fixed;
+	bottom: 10px;
+	text-align: right;
+	right: 2px;
+	border: 0;
+	margin-top: 2px;
+	padding: 10px;
+	width: 	130px;
+	background: #9232a6; 
+	color: #2f2f36;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	border-radius: 	25px;
+	cursor: pointer;
 }
 
 .footer{
